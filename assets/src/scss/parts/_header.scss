@@ -3,7 +3,7 @@
   position: relative;
   padding-top: 42px;
   min-height: 500px;
-  @include bg-img('assets/dist/img/baner.png');
+  @include bg-img('../../assets/dist/img/baner.png');
   color: #60606e;
   font-size: 18px;
   font-weight: 700;
