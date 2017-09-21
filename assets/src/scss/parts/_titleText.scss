@@ -1,0 +1,32 @@
+.titleText {
+  color: #60606e;
+  margin-top: 140px;
+  margin-bottom: 120px;
+  &--width {
+    width: 50%;
+    margin: 0 auto 100px;
+  }
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $headers-font-family;
+    font-size: 30px;
+    line-height: 48px;
+    position: relative;
+    z-index: 1;
+    @include afterTitle;
+  }
+  &__subtitle {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $main-font-family;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  &__text {
+    font-family: $main-font-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,38 @@
+.testomonialsClients-brand {
+  margin: 150px 0;
+  margin-right: -6px;
+
+}
+.slide {
+  padding-left: 0;
+  .slide-item {
+    text-align: center;
+    &__img img{
+      width: 85px;
+      height: 85px;
+      border-radius: 42.5px;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      margin-bottom: 28px;
+    }
+    &__text {
+      color: #60606e;
+      font-family: $main-font-family;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    &__name {
+      margin: 25px;
+      & span {
+        padding: 10px;
+        background-color: #7beec7;
+        font-family: $headers-font-family;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

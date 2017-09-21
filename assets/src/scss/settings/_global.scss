@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+a ,a:hover,a:focus {
+  text-decoration: none;
+  color:#60606e;
+}
+
+body {
+  width: 100%;
+
+  font-family: $main-font-family;
+  font-size: $sm-font-size;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
