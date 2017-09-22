@@ -2,42 +2,182 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/dist/style.css">
     <title>Document</title>
 </head>
 <body>
-<header class="header">
+    <header class="header">
 
-    <div class="header__container container row">
+        <div class="header__container container row">
 
-        <div class="header__logo col-xs-6">
-            <a href="#">akad.</a>
-        </div><!-- .header__logo -->
-        <div class="col-xs-6">
-            <div class="header__menu-icon menu-icon">
-                <span class="menu-icon__line"></span>
+            <div class="header__logo col-md-6 col-xs-6">
+                <a href="#">akad.</a>
+            </div><!-- .header__logo -->
+            <div class="header__menu col-md-6 col-xs-6">
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div> <!-- .header__menu -->
+
+            <div class="header__title row">
+                <h1 class="header__title__head col-md-12">contact us</h1>
+                <ul class="header__title__breadcrumbs col-md-12">
+                    <li class="breadcrumbs_item">
+                        <a href="index.html">home</a>
+                    </li>
+                    <li class="breadcrumbs_item">/</li>
+                    <li class="breadcrumbs_item">
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div><!-- .header__title -->
+        </div><!-- .header__container -->
+    </header>
+
+    <main>
+        <section class="formMap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <form action="#" method="post" class="contactform">
+                                <div class="col-md-6">
+                                    <p class="contactform__input">
+                                        <input type="text" name="name" placeholder="your name">
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="contactform__input">
+                                        <input type="text" name="email" placeholder="your email">
+                                    </p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="contactform__input">
+                                        <input type="text" name="object" placeholder="object">
+                                    </p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="contactform__textarea">
+                                        <textarea name="message" placeholder="message"></textarea>
+                                    </p>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="form__btn">
+                                        <span>send</span>
+                                    </button>
+                                </div>
+                            </form>
+
+                            <div class="col-md-12">
+                                <div class="formMap__contact">
+                                    <h4 class="contact__title">contact info</h4>
+                                    <p class="contact__text">Lorem ipsum dolor sit amet, conse adipisicing elit. Libero incidunt quod ab mollitia
+                                        qui dolorum conse.
+                                    </p>
+                                    <p class="contact__text">
+                                        13D, Functional apartment, Unique colony, <br/>
+                                        Agadir 86360 <br/>
+                                        +212 124-566-780 <br/>
+                                        +212 124-566-780<br/>
+                                        <a href="mailto:email@website.com" class="link">email@website.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <ul class="social-icons social-icons--left">
+                                    <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon ion-social-youtube"></i></a></li>
+                                    <li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="icon ion-social-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="map" id="map0"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="greenSection">
+        <div class="container">
+            <div class="col-md-6 col-sm-12">
+                <div class="row">
+                    <p class="greenSection__questiontext">
+                        you think we're cool? let's work together
+                    </p>
+                    <a href="#" class="btn_white">
+                        <span>get in touch</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="row">
+                    <div class="white-section">
+                        <h4 class="white-section__title">stay informed with our newsletter</h4>
+                        <p class="white-section__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <form action="#" method="post" class="form">
+                            <p class="form__input">
+                                <input type="text" name="email" placeholder="your email">
+                            </p>
+                            <button type="submit" class="form__btn">
+                                <span>send</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="header__title row">
-            <h1 class="header__title__head col-md-12">contact us</h1>
-            <ul class="header__title__breadcrumbs col-md-12">
-                <li class="breadcrumbs_item">
-                    <a href="contact.html">home</a>
-                </li>
-                <li class="breadcrumbs_item">/</li>
-                <li class="breadcrumbs_item">
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </div><!-- .header__title -->
-    </div><!-- .header__container -->
-</header>
- <main></main>
- <footer></footer>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="col-md-8 col-sm-12">
+                <div class="row">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#" class="footer-nav__item">Home</a></li>
+                            <li><a href="#" class="footer-nav__item">about us</a></li>
+                            <li><a href="#" class="footer-nav__item">services</a></li>
+                            <li><a href="#" class="footer-nav__item">portfolio</a></li>
+                            <li><a href="#" class="footer-nav__item">blog</a></li>
+                            <li><a href="#" class="footer-nav__item">contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="footer-copyright">
+                        created by akhouad &copy;2016. all rights reserved.
+                    </div>
+                    <ul class="social-icons social-icons--right">
+                        <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-youtube"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="assets/components/jquery/dist/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYqnqDVs3crpAH4xzizsdYmDMpsuGeSXs"></script>
     <script src="assets/dist/global.js"></script>
 </body>
 </html>

@@ -1,0 +1,67 @@
+.formMap {
+  margin: 150px 0;
+}
+.contactform {
+
+  & input, textarea {
+    width: 100%;
+    padding: 0 20px;
+    background-color: #fefcf9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    @include placeholder {
+      color: #cdcdcd;
+      font-family: $headers-font-family;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+  }
+  &__input {
+    & input {
+      height: 49px;
+
+    }
+  }
+  &__textarea {
+    & textarea {
+      height: 200px;
+
+    }
+  }
+}
+.formMap__contact {
+  margin-top: 50px;
+  .contact__title {
+    color: #60606e;
+    font-family: $headers-font-family;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  .contact__text {
+    margin-top: 15px;
+    color: #999;
+    font-family: $main-font-family;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+
+    & a {
+      font-weight: 700;
+    }
+  }
+}
+
+.social-icons--left {
+  text-align: left;
+  & li {
+    margin-right: 10px;
+  }
+}
+
+.map {
+  height: 841px;
+}
